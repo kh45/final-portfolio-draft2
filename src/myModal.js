@@ -65,7 +65,10 @@ class MyModal extends React.Component {
                         <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
                     </div>
                 </Modal.Body>
-                <Modal.Footer><div className="modal-foot-buttons">{this.createButtons(this.props.project)}</div></Modal.Footer>
+                <Modal.Footer>
+                    <div className="modal-foot-buttons">{this.createButtons(this.props.project)}</div>
+                    <button class="btn btn-primary close-button" onClick={this.props.handleHideParent}>Close</button>
+                    </Modal.Footer>
             </Modal>
         )
     }
