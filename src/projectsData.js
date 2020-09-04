@@ -52,9 +52,11 @@ export const projectsList = {
         buttons: [
             {
             name: 'GitHub',
-            image: './assets/logos/github.svg'},
-            {name: 'Website',
-            image: './assets/logos/internet.svg'
+            image: './assets/logos/github.svg',
+            link: 'https://github.com/kh45/coding-challenge-14'}
+            ,{name: 'Website',
+            image: './assets/logos/internet.svg',
+            link: 'https://kh45.github.io/coding-challenge-14/'
         }]
     }
 }
