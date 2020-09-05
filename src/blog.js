@@ -8,9 +8,9 @@ class Blog extends React.Component {
         return blogList.map(blog => <div>
             <img className="blog-pic" src={require(`${blog.img}`)}>
             </img>
-            <h3>
+            <h5>
                 {blog.title}
-            </h3>
+            </h5>
             <p>
                 {blog.preview}
             </p>

@@ -498,7 +498,15 @@
   margin-left: auto !important;
 }
 
+.blogs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 2rem;
+}
+
 .blog-pic {
-  height: 5rem;
-  width: 5rem
+  /* height: 100%; */
+  width: 100%;
+
 }

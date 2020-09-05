@@ -10,6 +10,7 @@ import Home from './home'
 import Navbar from './Navbar'
 import About from './about'
 import Blog from './blog'
+import Contact from './contact'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <About />
         <Projects />
         <Blog />
+        <Contact />
       </div>
   );
 }
