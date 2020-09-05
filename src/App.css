@@ -60,6 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 .home-text {
@@ -77,7 +78,7 @@
 }
 
 .home-container {
-  background: black;
+  /* background: black; */
 }
 
 .nav {
@@ -114,17 +115,24 @@
 }
 
 .home-container {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .about-container {
   height: 100vh;
+  /* border: 1px solid red; */
 }
 
 .projects-container {
   height: 100vh;
   text-align: center;
   padding-top: 10rem;
+  /* border: 1px solid blue; */
+}
+
+.blog-container {
+  margin-top: 10rem;
+  /* border: 1px solid red; */
 }
 
 .hello {
@@ -488,4 +496,9 @@
 
 .close-button {
   margin-left: auto !important;
+}
+
+.blog-pic {
+  height: 5rem;
+  width: 5rem
 }
