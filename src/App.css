@@ -127,11 +127,13 @@
   height: 100vh;
   text-align: center;
   padding-top: 10rem;
+  background: black;
   /* border: 1px solid blue; */
 }
 
 .blog-container {
   margin-top: 10rem;
+  background-color: purple
   /* border: 1px solid red; */
 }
 
@@ -145,6 +147,7 @@
   /* margin: auto; */
   /* grid-template-rows: 50% 50%; */
   justify-items: center;
+  background-color: black;
   /* border: 1px solid red; */
   /* padding: 2rem; */
   /* padding-left: 5rem; */
@@ -509,4 +512,30 @@
   /* height: 100%; */
   width: 100%;
 
+}
+
+.ind-blog {
+  cursor: pointer;
+  border: 1px solid red;
+  /* padding-bottom: 0px; */
+}
+
+.info {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.info-pics {
+  width: 2rem;
+  height: auto;
+}
+
+.faw-icons {
+  color: tomato
+}
+
+.fa-github-square:hover {
+  color: black;
+  transition: 1.3s
 }
