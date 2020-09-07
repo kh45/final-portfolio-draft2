@@ -3,6 +3,10 @@ import { blogList }from './blogData'
 
 class Contact extends React.Component {
 
+    contactMe(event) {
+        window.open(event.target.getAttribute('data-link'))
+    }
+
     render() {
         return(
             <div className="contact-container" id="section1">
@@ -39,9 +43,9 @@ class Contact extends React.Component {
                         </div>
                         <div className="faw-icons">
 
-                        <i class="fab fa-github-square fa-5x"></i>
-                        <i class="fab fa-medium fa-5x"></i>
-                        <i class="fab fa-linkedin fa-5x"></i>
+                        <i class="fab fa-github-square fa-5x" data-link="https://github.com/kh45" onClick={this.contactMe}></i>
+                        <i class="fab fa-medium fa-5x" data-link="https://medium.com/@khaledhassan45" onClick={this.contactMe}></i>
+                        <i class="fab fa-linkedin fa-5x" data-link="https://www.linkedin.com/in/khassan45/" onClick={this.contactMe}></i>
                     </div>
                     </div>
                     

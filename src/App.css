@@ -535,7 +535,8 @@
 .faw-icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  color: tomato
+  color: tomato;
+  padding-left: 25rem;
 }
 
 .fab:hover {
