@@ -12,7 +12,19 @@ class Contact extends React.Component {
                 </div>
                     <div className="contact">
                         <div className="contact-info">
-                            <div className="info">
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i>
+                                 Address: Washington, DC 20002
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope"></i>
+                                Email: khaledhassan45@gmail.com
+                            </p>
+                            <p>
+                            <i class="fas fa-phone-alt"></i>
+                                Phone: (301) 760-6900
+                            </p>
+                            {/* <div className="info">
                                 <img className="info-pics" src={require('./assets/location-pin.svg')} />
                                 <p>Address: Washington, DC 20002</p>
                             </div>
@@ -23,7 +35,7 @@ class Contact extends React.Component {
                             <div className="info">
                                 <img className="info-pics" src={require('./assets/phone.svg')}/>
                                 <p>Phone: 301-760-6900</p>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="faw-icons">
 

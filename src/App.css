@@ -521,9 +521,10 @@
 }
 
 .info {
-  width: 40%;
+  /* width: 40%;
   display: grid;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 10% 90%; */
+  /* border: 1px solid red; */
 }
 
 .info-pics {
@@ -532,10 +533,31 @@
 }
 
 .faw-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   color: tomato
 }
 
-.fa-github-square:hover {
+.fab:hover {
   color: black;
-  transition: 1.3s
+  transition: 1.3s;
+  cursor: pointer;
+}
+
+.contact {
+  display: grid;
+  padding-top: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-info {
+  padding-left: 2rem;
+}
+
+.fas {
+  margin-right: 1rem;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
 }
