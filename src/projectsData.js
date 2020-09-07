@@ -36,6 +36,38 @@ export const projectsList = {
         title: "PokemonTCG",
         description: "This is my sports project",
         img1: "./assets/pokemon.png",
+        slides: [
+            {
+                image: "./assets/screenshots/pokemon/pokemon1.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/pokemon/pokemon2.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/pokemon/pokemon3.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/pokemon/pokemon4.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/pokemon/pokemon5.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/pokemon/pokemon6.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            }
+        ],
         buttons: [
             {
             name: 'YouTube',
