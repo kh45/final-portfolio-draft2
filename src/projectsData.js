@@ -96,6 +96,28 @@ export const projectsList = {
         title: "UEFA CHAMPIONS MEMORY",
         description: "This is my sports project",
         img1: "./assets/uefa.png",
+        slides: [
+            {
+                image: "./assets/screenshots/uefa/uefa1.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/uefa/uefa2.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/uefa/uefa3.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/uefa/uefa4.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            }
+        ],
         buttons: [
             {
             name: 'GitHub',
