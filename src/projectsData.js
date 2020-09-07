@@ -3,6 +3,21 @@ export const projectsList = {
         title: "SportsScraper",
         description: "This is my sports project",
         img1: "./assets/SportsScraper.png",
+        slides: [{
+            image: "./assets/SportsScraper.png",
+            bigCaption: "First Slide Label",
+            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+        },
+        {
+            image: "./assets/screenshots/sportsscraper/sportsscraper2.png",
+            bigCaption: "First Slide Label",
+            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+        },
+        {
+            image: "./assets/screenshots/sportsscraper/sportsscraper3.png",
+            bigCaption: "First Slide Label",
+            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+        }],
         buttons: [
             {
             name: 'View Demo',

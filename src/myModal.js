@@ -4,15 +4,15 @@ import Carousel from 'react-bootstrap/Carousel'
 
 class MyModal extends React.Component {
 
-    createSlides = () => {
-        return this.props.project.pictures.map(picture => <Carousel.Item>
-            <img className="d-block w-100" src={require(`${this.props.project.img1}`)} alt="First slide"/>
-        <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-        </Carousel.Item>)
-    }
+    // createSlides = () => {
+    //     return this.props.project.pictures.map(picture => <Carousel.Item>
+    //         <img className="d-block w-100" src={require(`${this.props.project.img1}`)} alt="First slide"/>
+    //     <Carousel.Caption>
+    //     <h3>First slide label</h3>
+    //     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    //     </Carousel.Caption>
+    //     </Carousel.Item>)
+    // }
 
     handleLinkClick = (event) => {
         window.open(event.target.parentNode.getAttribute('data-link'))
@@ -23,10 +23,16 @@ class MyModal extends React.Component {
             <img className="modal-button modal-button-link" src={require(`${button.image}`)} onClick={this.handleLinkClick} />
             <p className="modal-button-link" onClick={this.handleLinkClick}>{button.name}</p>
             </div>)
-        // return (<div className="modal-button-div">
-        //         <img className="modal-button" src={require(`${project.buttons.image}`)} />
-        //         <p>{project.buttons.name}</p>
-        //     </div>)
+    }
+
+    createSlides = (project) => {
+        return project.slides.map(slide => <Carousel.Item>
+            <img className="d-block w-100" src={require(`${slide.image}`)} alt="First slide"/>
+        <Carousel.Caption>
+        <h3>{slide.bigCaption}</h3>
+        <p>{slide.littleCaption}</p>
+        </Carousel.Caption>
+        </Carousel.Item>)
     }
 
     render() {
@@ -34,7 +40,7 @@ class MyModal extends React.Component {
             <Modal show={this.props.showModal} size="lg" onHide={this.props.handleHideParent} dialogClassName="hey">
                 <Modal.Header className="screenshot">
                     <Carousel autoPlay={true} interval={2500}>
-                        <Carousel.Item>
+                        {/* <Carousel.Item>
                             <img className="d-block w-100" src={require(`${this.props.project.img1}`)} alt="First slide"/>
                         <Carousel.Caption>
                         <h3>First slide label</h3>
@@ -55,7 +61,8 @@ class MyModal extends React.Component {
       <h3>Third slide label</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
-  </Carousel.Item>
+  </Carousel.Item> */}
+  {this.createSlides(this.props.project)}
 </Carousel>
                 </Modal.Header>
                 <Modal.Body className="custom-modal-body">
