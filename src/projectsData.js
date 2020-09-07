@@ -17,7 +17,33 @@ export const projectsList = {
             image: "./assets/screenshots/sportsscraper/sportsscraper3.png",
             bigCaption: "First Slide Label",
             littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
-        }],
+        },
+        {
+            image: "./assets/screenshots/sportsscraper/sportsscraper4.png",
+            bigCaption: "First Slide Label",
+            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+        },
+        {
+            image: "./assets/screenshots/sportsscraper/sportsscraper5.png",
+            bigCaption: "First Slide Label",
+            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+        },
+        {
+            image: "./assets/screenshots/sportsscraper/sportsscraper6.png",
+            bigCaption: "First Slide Label",
+            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+        },
+        {
+            image: "./assets/screenshots/sportsscraper/sportsscraper7.png",
+            bigCaption: "First Slide Label",
+            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+        },
+        {
+            image: "./assets/screenshots/sportsscraper/sportsscraper8.png",
+            bigCaption: "First Slide Label",
+            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+        },
+    ],
         buttons: [
             {
             name: 'View Demo',
@@ -82,6 +108,27 @@ export const projectsList = {
         title: "Nightlife",
         description: "This is my sports project",
         img1: "./assets/nightlife.png",
+        slides: [
+            {
+                image: "./assets/screenshots/nightlife/nightlife1.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/nightlife/nightlife2.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/nightlife/nightlife3.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            },
+            {
+                image: "./assets/screenshots/nightlife/nightlife4.png",
+                bigCaption: "First Slide Label",
+                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            }],
         buttons: [
             {
             name: 'YouTube',
