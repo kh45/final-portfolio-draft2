@@ -61,6 +61,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  /* border: 1px solid green */
 }
 
 .home-text {
@@ -407,7 +408,8 @@
 
 
 .about-container {
-  /* border: 1px solid red; */
+  /* max-width: 100%; */
+  border: 10px solid red;
   /* display: grid; */
   /* border: 1px solid red; */
   /* grid-template-columns: repeat(auto-fill, minmax(700px, 1fr)); */
@@ -419,7 +421,7 @@
 }
 
 .about-bar {
-  /* border: 2px solid red; */
+  /* border: 2px solid gold; */
   background: blue;
   height: 4px;
   width: 4rem;
@@ -427,13 +429,13 @@
 }
 
 .about-content {
-  /* border: 1px solid red; */
+  border: 5px solid green;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(485px, 1fr));
 }
 
 .projects-bar {
-  /* border: 2px solid red; */
+  /* border: 2px solid gold; */
   background: blue;
   height: 4px;
   width: 4rem;
@@ -441,41 +443,51 @@
 }
 
 .holder {
-  /* border: 1px solid red; */
+  border: 1px solid red;
+  /* margin: auto; */
   text-align: center;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   /* padding-left: 200rem; */
   padding-top: 2rem;
   height: 80vh;
+  max-width: 100%;
+  /* overflow-wrap: break-word; */
 }
 
 .holder img {
+  border: 1px solid teal;
   height: 40vh;
 }
 
 .about-title {
-  grid-column: 1/3;
+  border: 12px solid purple;
+  /* grid-column: 1/3; */
   text-align: center;
   /* border: 1px solid red; */
-  width: 100%;
+  /* width: 100%; */
 }
 
 .jimmybuckets {
   padding-top: 6rem;
-  padding-right: 6rem;
-  /* border: 1px solid red; */
+  /* padding-right: 6rem; */
+  /* max-width: 70%; */
+  border: 1px solid red;
   /* text-align: center; */
+}
+
+.lemmesee {
+  border: 1px solid purple
 }
 
 .caption {
-  margin: auto;
+  /* margin: auto; */
   /* text-align: center; */
   width: 80%;
-  /* border: 1px solid red; */
+  border: 1px solid yellow;
 }
 
 .about-sub-headers {
-  display: block;
+  /* display: block; */
   /* margin: auto 0; */
   text-align: center;
   /* border: 1px solid red; */
@@ -484,9 +496,17 @@
 .skills {
   text-align: center;
   display: grid;
+  border: 1px solid magenta;
+  max-width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 2rem;
 }
+
+@media screen and (max-width: 500px) {
+  .skills {
+    grid-template-columns: 100%;
+  }
+} 
 
 .skills-heading {
   grid-column: 1/3;
@@ -499,6 +519,7 @@
 .typeSkills {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border: 1px solid greenyellow
 }
 
 /* .hey {
@@ -578,7 +599,7 @@
 
 .blogs {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   grid-gap: 2rem;
   padding: 2rem;
 }
@@ -611,7 +632,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: tomato;
-  padding-left: 25rem;
+  /* padding-left: 25rem; */
 }
 
 .fab:hover {
@@ -623,15 +644,18 @@
 .contact {
   display: grid;
   padding-top: 2rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  border: 1px solid purple;
 }
 
 .contact-info {
   padding-left: 2rem;
+  border: 1px solid green
 }
 
 .fas {
   margin-right: 1rem;
+  border: 1px solid red
 }
 
 .contact-info p {

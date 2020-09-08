@@ -16,19 +16,19 @@ class About extends React.Component {
                     <div className="holder">
                         <img src={profilePic} className="profpic" alt="" />
                         <div className="caption">
-                        <h3>Who's this guy?</h3>
-                        <p>I'm a Full Stack Web Developer based in Washington D.C. When I'm not learning new frameworks you can catch me watching Liverpool FC or playing pickup basketball.</p>
+                            <h3 className="lemmesee">Who's this guy?</h3>
+                            <p className="lemmesee">I'm a Full Stack Web Developer based in Washington D.C. When I'm not learning new frameworks you can catch me watching Liverpool FC or playing pickup basketball.</p>
                         </div>
                     </div>
                     <div className="jimmybuckets">
-                        <h3 className="about-sub-headers">My Story</h3>
-                        <p>
+                        <h3 className="about-sub-headers lemmesee">My Story</h3>
+                        <p className="lemmesee">
                         I graduated from the University of Maryland in 2016 with a degree in Mechanical Engineering and went on to work at NASA for 2.5 years. There I realized that coding is what I truly enjoy so I quit to attend Flatiron School Coding Bootcamp. I have a serious passion for learning new technologies and creating sleek, user-friendly, fast web applications.
                         </p>
                         <h3 className="about-sub-headers">SKILLS</h3>
                         <div className="skills">
                             <div className="typeSkills">
-                                <h5 className="skills-heading">FRONT-END</h5>
+                                <h5 className="skills-heading lemmesee">FRONT-END</h5>
                                 <div>
                                     <img className="devIcon" alt="" src={require(`${filePath}/react.svg`)} />
                                     <p>React</p>
