@@ -135,6 +135,7 @@
 
 .nav-item {
   /* display: inline; */
+  cursor: pointer;
   margin-left: 2rem;
   /* color: #333; */
 }
@@ -208,7 +209,7 @@
 
 .project-tiles {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   /* margin: auto; */
   /* grid-template-rows: 50% 50%; */
   justify-items: center;
@@ -406,9 +407,10 @@
 
 .about-container {
   /* border: 1px solid red; */
-  display: grid;
+  /* display: grid; */
   /* border: 1px solid red; */
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fill, minmax(700px, 1fr)); */
+  /* grid-template-rows: repeat(auto-fill, minmax(500px, 1fr)); */
   /* justify-content: center; */
 }
 .about-header {
@@ -421,6 +423,12 @@
   height: 4px;
   width: 4rem;
   margin: auto;
+}
+
+.about-content {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
 }
 
 .projects-bar {

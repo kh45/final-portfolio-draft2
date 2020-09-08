@@ -9,9 +9,9 @@ class Navbarz extends React.Component {
         window.open("https://drive.google.com/file/d/1rGVrVuMQUlFjLcqpTfCzbJ5PkIH3pP4C/view")
     }
 
-    makeResponsive(event) {
-        event.target.parentNode.parentNode.classList.add('responsive')
-    }
+    // makeResponsive(event) {
+    //     event.target.parentNode.parentNode.classList.add('responsive')
+    // }
 
     render() {
         return (
@@ -36,7 +36,7 @@ class Navbarz extends React.Component {
       </NavDropdown>
     </Nav>
     {/* <Form inline> */}
-      <Button variant="outline-success">Search</Button>
+      <Button variant="outline-success" onClick={this.handleClick}>Résumé</Button>
     {/* </Form> */}
   </Navbar.Collapse>
 </Navbar>

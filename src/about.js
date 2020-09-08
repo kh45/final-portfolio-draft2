@@ -12,6 +12,7 @@ class About extends React.Component {
                     <h1 className="about-header">ABOUT</h1>
                     <div className="about-bar"></div>
                 </div>
+                <div className="about-content">
                     <div className="holder">
                         <img src={profilePic} className="profpic" alt="" />
                         <div className="caption">
@@ -84,6 +85,7 @@ class About extends React.Component {
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
             </div>
         )
