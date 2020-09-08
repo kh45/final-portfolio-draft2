@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from './assets/profpic.png'
+import profilePic from './assets/IMG_2497.JPG'
 
 class About extends React.Component {
 
@@ -13,7 +13,7 @@ class About extends React.Component {
                     <div className="about-bar"></div>
                 </div>
                     <div className="holder">
-                        <img src={profilePic} alt="" />
+                        <img src={profilePic} className="profpic" alt="" />
                         <div className="caption">
                         <h3>Who's this guy?</h3>
                         <p>I'm a Full Stack Web Developer based in Washington D.C. When I'm not learning new frameworks you can catch me watching Liverpool FC or playing pickup basketball.</p>
