@@ -41,14 +41,16 @@ class Navbarz extends React.Component {
             <nav className="nav" id="nav">
                 <div className="nav-content">
                     <ul className="nav-items">
-                        <span className="first-nav">
+                        {/* <span className="first-nav"> */}
                         <li className="nav-item"><Link activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></li>
                         <li className="nav-item"><Link activeClass="active" to="section2" spy={true} smooth={true} duration={500}>About</Link></li>
                         <li className="nav-item"><Link activeClass="active" to="section3" spy={true} smooth={true} duration={500}>Portfolio</Link></li>
                         <li className="nav-item"><Link activeClass="active" to="section4" spy={true} smooth={true} duration={500}>Blog</Link></li>
                         <li className="nav-item"><Link activeClass="active" to="section5" spy={true} smooth={true} duration={500}>Contact</Link></li>
-                        </span>
-                        <span className="resume"><li className="nav-item" onClick={this.handleClick}>Résumé</li></span>
+                        {/* </span> */}
+                        {/* <span className="resume"> */}
+                            <li className="nav-item resume" onClick={this.handleClick}>Résumé</li>
+                            {/* </span> */}
                         <a href="javascript:void(0);" class="icon-bars" onclick={this.responsiveBars}>
     <i class="fa fa-bars"></i>
   </a>

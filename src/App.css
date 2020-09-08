@@ -95,7 +95,7 @@
 .first-nav {
   /* margin-right: 0px; */
   /* text-align: left; */
-  float: left;
+  /* float: left; */
   /* border: 1px solid purple */
 }
 
@@ -109,13 +109,15 @@
   display: none;
 }
 
-.resume {
-  margin-right: 0px;
-}
 
 .nav-items {
   /* border: 1px solid red; */
+  text-align: left;
   width: 100%
+}
+
+.resume {
+  float: right;
 }
 
 .nav .nav-content {
