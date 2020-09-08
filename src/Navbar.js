@@ -1,24 +1,57 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import { Link, Scroll, scrollTo } from 'react-scroll'
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 
-class Navbar extends React.Component {
+class Navbarz extends React.Component {
 
 
     handleClick() {
         window.open("https://drive.google.com/file/d/1rGVrVuMQUlFjLcqpTfCzbJ5PkIH3pP4C/view")
     }
 
+    responsiveBars() {
+
+    }
+
     render() {
         return (
+//             <Navbar bg="light" expand="lg" className="navz sticky-top">
+//                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+//                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
+//                 <Navbar.Collapse id="basic-navbar-nav">
+//                 <Nav className="mr-auto">
+//       {/* <Nav.Link as='div'><Link activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={500}>Section 1</Link></Nav.Link> */}
+//       <Nav.Link as="div"><Link className="nav-item" activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={500}>Section 1</Link></Nav.Link>
+//       <Link className="nav-item" activeClass="active" to="section2" spy={true} smooth={true} offset={-70} duration={500}>Section 2</Link>
+//       <Link className="nav-item" activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={500}>Section 1</Link>
+//       <Nav.Link href="#link">Link</Nav.Link>
+//       <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+//         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+//         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+//         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+//         <NavDropdown.Divider />
+//         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+//       </NavDropdown>
+//     </Nav>
+//     {/* <Form inline> */}
+//       <Button variant="outline-success">Search</Button>
+//     {/* </Form> */}
+//   </Navbar.Collapse>
+// </Navbar>
             <nav className="nav" id="nav">
                 <div className="nav-content">
                     <ul className="nav-items">
-                        <li className="nav-item"><Link activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={500}>Section 1</Link></li>
-                        <li className="nav-item"><Link activeClass="active" to="section2" spy={true} smooth={true} duration={500}>Section 2</Link></li>
-                        <li className="nav-item"><Link activeClass="active" to="section3" spy={true} smooth={true} duration={500}>Section 3</Link></li>
-                        <li className="nav-item"><Link activeClass="active" to="section4" spy={true} smooth={true} duration={500}>Section 4</Link></li>
-                        <li className="nav-item"><Link activeClass="active" to="section5" spy={true} smooth={true} duration={500}>Section 5</Link></li>
-                        <li className="nav-item" onClick={this.handleClick}>Résumé</li>
+                        <span className="first-nav">
+                        <li className="nav-item"><Link activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></li>
+                        <li className="nav-item"><Link activeClass="active" to="section2" spy={true} smooth={true} duration={500}>About</Link></li>
+                        <li className="nav-item"><Link activeClass="active" to="section3" spy={true} smooth={true} duration={500}>Portfolio</Link></li>
+                        <li className="nav-item"><Link activeClass="active" to="section4" spy={true} smooth={true} duration={500}>Blog</Link></li>
+                        <li className="nav-item"><Link activeClass="active" to="section5" spy={true} smooth={true} duration={500}>Contact</Link></li>
+                        </span>
+                        <span className="resume"><li className="nav-item" onClick={this.handleClick}>Résumé</li></span>
+                        <a href="javascript:void(0);" class="icon-bars" onclick={this.responsiveBars}>
+    <i class="fa fa-bars"></i>
+  </a>
                     </ul>
                 </div>
             </nav>
@@ -26,4 +59,4 @@ class Navbar extends React.Component {
     }
 }
 
-export default Navbar
+export default Navbarz
