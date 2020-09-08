@@ -184,12 +184,13 @@
 }
 
 .about-container {
-  height: 100vh;
+  /* height: 100vh; */
+
   /* border: 1px solid red; */
 }
 
 .projects-container {
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
   padding-top: 10rem;
   background: black;
