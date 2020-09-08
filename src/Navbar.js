@@ -51,9 +51,9 @@ class Navbarz extends React.Component {
                         {/* <span className="resume"> */}
                             <li className="nav-item resume" onClick={this.handleClick}>Résumé</li>
                             {/* </span> */}
-                        <a href="javascript:void(0);" class="icon-bars" onclick={this.responsiveBars}>
-    <i class="fa fa-bars"></i>
-  </a>
+                        <li className="nav-item bars">
+                            <i class="fas fa-bars fa-3x" onClick={this.responsiveBars}></i>
+                        </li>
                     </ul>
                 </div>
             </nav>
