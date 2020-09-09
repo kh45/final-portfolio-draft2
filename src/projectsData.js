@@ -4,43 +4,43 @@ export const projectsList = {
         description: "This is my sports project",
         slides: [{
             image: "./assets/screenshots/sportsscraper/sportsscraper1.png",
-            bigCaption: "First Slide Label",
-            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            bigCaption: "LOGIN PAGE",
+            littleCaption: 'Users log in to access their profile'
         },
         {
             image: "./assets/screenshots/sportsscraper/sportsscraper2.png",
-            bigCaption: "First Slide Label",
-            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            bigCaption: "PICK YOUR LEAGUES",
+            littleCaption: 'Users select which leagues/sports they want to follow'
         },
         {
             image: "./assets/screenshots/sportsscraper/sportsscraper3.png",
-            bigCaption: "First Slide Label",
-            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            bigCaption: "USER DASHBOARD",
+            littleCaption: "The user dashboard contains the daily games schedule and news from all the leagues the user selected to follow, as well as shortcut links to players that user has chosen to follow"
         },
         {
             image: "./assets/screenshots/sportsscraper/sportsscraper4.png",
-            bigCaption: "First Slide Label",
-            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            bigCaption: "LEAGUE HOME PAGE",
+            littleCaption: "Every league has a home page that contains the day's news, current team standings, daily games schedule, and league statistical leaders"
         },
         {
             image: "./assets/screenshots/sportsscraper/sportsscraper5.png",
-            bigCaption: "First Slide Label",
-            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            bigCaption: "LEAGUE HOME PAGE (CONT.)",
+            littleCaption: 'The top 3 players in various statistical categories'
         },
         {
             image: "./assets/screenshots/sportsscraper/sportsscraper6.png",
-            bigCaption: "First Slide Label",
-            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            bigCaption: "PLAYER INDEX",
+            littleCaption: 'All the players in a particular league, can be searched by name or team'
         },
         {
             image: "./assets/screenshots/sportsscraper/sportsscraper7.png",
-            bigCaption: "First Slide Label",
-            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            bigCaption: "SELECTED PLAYER",
+            littleCaption: 'When you select a player from the index you will be presented with a modal displaying his statistics, and a link to take you to that players news page'
         },
         {
             image: "./assets/screenshots/sportsscraper/sportsscraper8.png",
-            bigCaption: "First Slide Label",
-            littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            bigCaption: "PLAYER NEWS PAGE",
+            littleCaption: 'This page uses webscraping to gather daily news blurbs about the player from Rotoworld.com and displays the players statistics. Users can also follow a player to have a shortcut to the player on their dashboard'
         },
     ],
         buttons: [
