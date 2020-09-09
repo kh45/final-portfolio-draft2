@@ -194,7 +194,7 @@
   /* height: 100vh; */
   text-align: center;
   padding-top: 10rem;
-  background: black;
+  /* background: black; */
   /* z-index: 1; */
   /* border: 1px solid blue; */
 }
@@ -215,7 +215,7 @@
   /* margin: auto; */
   /* grid-template-rows: 50% 50%; */
   justify-items: center;
-  background-color: black;
+  /* background-color: black; */
   z-index: 1;
   /* border: 1px solid red; */
   /* padding: 2rem; */
@@ -681,5 +681,5 @@
 }
 
 .fixer {
-  padding-right: 2rem;
+  padding-right: 1.7rem;
 }

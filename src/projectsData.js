@@ -69,23 +69,23 @@ export const projectsList = {
             },
             {
                 image: "./assets/screenshots/pokemon/pokemon3.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "NEW DECK CREATED",
+                littleCaption: 'When a user creates a new deck, 60 random cards are pulled from the PokeMon API using the two types selected by the user. After being generated the 60 cards are displayed'
             },
             {
                 image: "./assets/screenshots/pokemon/pokemon4.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "SELECTED CARD",
+                littleCaption: 'Users can scroll through their decks and select a specific card to get a better look'
             },
             {
                 image: "./assets/screenshots/pokemon/pokemon5.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "ROCK GYM LEADER",
+                littleCaption: 'Users can select a gym leader to battle. Gym Leaders have decks full of pokemon type corresponding to their gym type. Page background will change depending on Gym Leader that was selected'
             },
             {
                 image: "./assets/screenshots/pokemon/pokemon6.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "GRASS GYM LEADER",
+                littleCaption: "Users will battle gym leaders by selecting attacks and doing damage to the Pokemon's HP. First trainer to knock out 6 pokemon wins. Gameplay board displays every move after it is made and how many pokemon remaining"
             }
         ],
         buttons: [
@@ -142,23 +142,23 @@ export const projectsList = {
         slides: [
             {
                 image: "./assets/screenshots/uefa/uefa1.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "STARTING BOARD",
+                littleCaption: 'Users flip cards to reveal a football club logo'
             },
             {
                 image: "./assets/screenshots/uefa/uefa2.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "FIRST REVEAL",
+                littleCaption: 'If user does not guess correctly cards will return to face down position'
             },
             {
                 image: "./assets/screenshots/uefa/uefa3.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "TRY TO BEAT YOUR HIGH SCORE",
+                littleCaption: 'Users try to match all 10 pairs in the least amount of moves and time'
             },
             {
                 image: "./assets/screenshots/uefa/uefa4.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "WINNING BOARD",
+                littleCaption: 'When all 10 pairs are found user will be told how many turns they took. Try to beat your high score'
             }
         ],
         buttons: [
