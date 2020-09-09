@@ -9,7 +9,7 @@ import Particles from 'react-tsparticles'
 class Home extends React.Component {
     render() {
         return(
-            <div className="home-container">
+            <div className="home-container" id="home">
                 <div id="particles-canvas">
                 {/* <Particles 
                     params={{
@@ -133,10 +133,27 @@ class Home extends React.Component {
       />
                     </div>
                 <div className="home-text">
-                    <h1>Hello I Am: <Typed strings={["Khaled Hassan"]} onComplete={(self) => self.cursor.remove()} startDelay={500} typeSpeed={40} /></h1>
-                    <h1>I am a: <Typed strings={["Full Stack Web Developer"]} startDelay={1500} typeSpeed={40} onComplete={(self) => self.cursor.remove()} /></h1>
-                    <Typed strings={["What would you like to see?"]} startDelay={3000} typeSpeed={40} onComplete={(self) => self.cursor.remove()} />
-                    <hr></hr>
+                    <span className="opening animate__animated animate__flipInY">K</span>
+                    <span className="opening animate__animated animate__flipInY">H</span>
+                    <span className="opening animate__animated animate__flipInY">A</span>
+                    <span className="opening animate__animated animate__flipInY">L</span>
+                    <span className="opening animate__animated animate__flipInY">E</span>
+                    <span className="opening animate__animated animate__flipInY">D</span>
+                    <span>        </span>
+                    <span className="opening animate__animated animate__flipInY">H</span>
+                    <span className="opening animate__animated animate__flipInY">A</span>
+                    <span className="opening animate__animated animate__flipInY">S</span>
+                    <span className="opening animate__animated animate__flipInY">S</span>
+                    <span className="opening animate__animated animate__flipInY">A</span>
+                    <span className="opening animate__animated animate__flipInY">N</span>
+                    {/* <h1 className="opening animate__animated animate__flipInY"><Typed strings={["KHALED HASSAN"]} onComplete={(self) => self.cursor.remove()} startDelay={500} typeSpeed={100} /></h1>
+                    <h1 className="sub-opening"><Typed strings={["Full Stack Web Developer"]} startDelay={3500} typeSpeed={40} onComplete={(self) => self.cursor.remove()} /></h1>
+                    <Typed strings={["What would you like to see?"]} startDelay={5000} typeSpeed={40} onComplete={(self) => self.cursor.remove()} />
+                    <hr></hr> */}
+                    <h1 className="sub-opening"><Typed strings={["Full Stack Web Developer"]} startDelay={3500} typeSpeed={40} onComplete={(self) => self.cursor.remove()} /></h1>
+                    <div className="opening-button">
+                        Scroll Down To See More <span className="arrow">↑</span>
+                    </div>
                 </div>
                 {/* <Link to="/about"><button>About Me</button></Link> */}
                 {/* <Link to="/projects"><button>Projects</button></Link> */}

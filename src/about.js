@@ -7,7 +7,7 @@ class About extends React.Component {
 
         const filePath = './assets/logos'
         return(
-            <div className="about-container" id="section1">
+            <div className="about-container" id="about">
                 <div className="about-title">
                     <h1 className="about-header">ABOUT</h1>
                     <div className="about-bar"></div>

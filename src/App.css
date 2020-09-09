@@ -67,6 +67,7 @@
 .home-text {
   z-index: 2;
   color: white;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
@@ -193,7 +194,7 @@
 .projects-container {
   /* height: 100vh; */
   text-align: center;
-  padding-top: 10rem;
+  /* padding-top: 10rem; */
   /* background: black; */
   /* z-index: 1; */
   /* border: 1px solid blue; */
@@ -201,7 +202,7 @@
 
 .blog-container {
   /* margin-top: 10rem; */
-  background-color: purple
+  /* background-color: purple */
   /* border: 1px solid red; */
 }
 
@@ -649,17 +650,17 @@
   display: grid;
   padding-top: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .contact-info {
   padding-left: 2rem;
-  border: 1px solid green
+  /* border: 1px solid green */
 }
 
 .fas {
   margin-right: 1rem;
-  border: 1px solid red
+  /* border: 1px solid red */
 }
 
 .contact-info p {
@@ -686,4 +687,71 @@
 
 .short-desc {
   font-size: 0.8em;
+}
+
+.opening {
+  font-size: 5rem;
+  display: inline-block;
+  letter-spacing: 2rem;
+}
+
+.opening:nth-child(1) {
+  --animate-duration: 1s;
+}
+.opening:nth-child(2) {
+  --animate-duration: 1.5s;
+}
+.opening:nth-child(3) {
+  --animate-duration: 2s;
+}
+.opening:nth-child(4) {
+  --animate-duration: 2.5s;
+}
+.opening:nth-child(5) {
+  --animate-duration: 3s;
+}
+.opening:nth-child(6) {
+  --animate-duration: 3.5s;
+}
+.opening:nth-child(7) {
+  --animate-duration: 4s;
+}
+.opening:nth-child(8) {
+  --animate-duration: 4.3s;
+}
+.opening:nth-child(9) {
+  --animate-duration: 4.5s;
+}
+.opening:nth-child(10) {
+  --animate-duration: 4.7s;
+}
+.opening:nth-child(11) {
+  --animate-duration: 4.9s;
+}
+.opening:nth-child(12) {
+  --animate-duration: 5.1s;
+}
+.opening:nth-child(13) {
+  --animate-duration: 5.3s;
+}
+
+.sub-opening {
+  font-size: 1rem;
+}
+
+.arrow {
+  display: inline-block;
+  animation-name: lookDown;
+  animation-duration: 0.5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes lookDown {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
 }

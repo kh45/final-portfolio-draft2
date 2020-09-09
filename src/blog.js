@@ -3,20 +3,20 @@ import { blogList }from './blogData'
 
 class Blog extends React.Component {
 
-    handleClick() {
-        window.open('https://medium.com/@khaledhassan45/how-to-scrape-dynamic-content-off-of-a-web-page-using-rails-nokogiri-and-watir-dc6275af1e91')
+    handleClick(event) {
+        window.open(event.target.getAttribute('data-link'))
     }
 
 
     createBlogs() {
-        return blogList.map(blog => <div className="ind-blog" onClick={this.handleClick}>
-            <img className="blog-pic" src={require(`${blog.img}`)}>
+        return blogList.map(blog => <div className="ind-blog" onClick={this.handleClick} data-link={blog.link}>
+            <img className="blog-pic" src={require(`${blog.img}`)} data-link={blog.link}>
             </img>
-            <h5>
+            <h5 data-link={blog.link}>
                 {blog.title}
             </h5>
-            <div className="about-bar"></div>
-            <p>
+            <div className="about-bar" data-link={blog.link}></div>
+            <p data-link={blog.link}>
                 {blog.preview}
             </p>
         </div>)
@@ -24,7 +24,7 @@ class Blog extends React.Component {
 
     render() {
         return(
-            <div className="blog-container" id="section1">
+            <div className="blog-container" id="blogs">
                 <div className="about-title">
                     <h1 className="about-header">BLOG</h1>
                     <div className="about-bar"></div>

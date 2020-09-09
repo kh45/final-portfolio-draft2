@@ -57,7 +57,7 @@ export const projectsList = {
     },
     pokemonTCG: {
         title: "PokemonTCG",
-        skills: ["JavaScript", "Rails", "SQLite"],
+        skills: ["JavaScript", "Rails", "CSS", "SQLite"],
         shortDescription: "A PokeMon card game where users create their own decks & battle gym leaders and try to beat them all",
         technicalDescription: "Frontend constructed only using vanilla JavaScript and custom CSS. Fetched all PokeMon cards & info from third-party API. SQLite database to persist decks to user's account after they are created. Backend constructed using Ruby on Rails. Single Page Applcation, but utilizes DOM manipuliation to give appearance of multi page app.",
         slides: [
@@ -108,7 +108,7 @@ export const projectsList = {
     ]},
     nightlife2: {
         title: "Nightlife",
-        skills: ["React", "Redux", "Rails", "Bootstrap", "MySQL"],
+        skills: ["React", "Rails", "Bootstrap", "MySQL"],
         shortDescription: "An app that allows users to search for their favorite artists and keep track of/purchase tickets to their shows",
         technicalDescription: "Frontend constructed using React and Bootstrap for styling. Backend constructed using Ruby on Rails. Fetched all info from TicketMaster API. Users can save their favorite events and will be persisted in MySQL database after logging out.",
         slides: [

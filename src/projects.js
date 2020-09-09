@@ -52,7 +52,7 @@ class Projects extends React.Component {
     render() {
         return(
             <div>
-            <div className="projects-container" id="section2">
+            <div className="projects-container" id="projects">
                 <div>
                     <h1 className="projects-header">PROJECTS</h1>
                     <div className="projects-bar"></div>
