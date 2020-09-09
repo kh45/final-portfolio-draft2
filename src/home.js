@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 // import Particles from 'react-particles-js'
 import Particles from 'react-tsparticles'
 // Hiii Mom!
@@ -133,6 +133,7 @@ class Home extends React.Component {
       />
                     </div>
                 <div className="home-text">
+                    <h1>
                     <span className="opening animate__animated animate__flipInY">K</span>
                     <span className="opening animate__animated animate__flipInY">H</span>
                     <span className="opening animate__animated animate__flipInY">A</span>
@@ -146,14 +147,18 @@ class Home extends React.Component {
                     <span className="opening animate__animated animate__flipInY">S</span>
                     <span className="opening animate__animated animate__flipInY">A</span>
                     <span className="opening animate__animated animate__flipInY">N</span>
+                    </h1>
                     {/* <h1 className="opening animate__animated animate__flipInY"><Typed strings={["KHALED HASSAN"]} onComplete={(self) => self.cursor.remove()} startDelay={500} typeSpeed={100} /></h1>
                     <h1 className="sub-opening"><Typed strings={["Full Stack Web Developer"]} startDelay={3500} typeSpeed={40} onComplete={(self) => self.cursor.remove()} /></h1>
                     <Typed strings={["What would you like to see?"]} startDelay={5000} typeSpeed={40} onComplete={(self) => self.cursor.remove()} />
                     <hr></hr> */}
-                    <h1 className="sub-opening"><Typed strings={["Full Stack Web Developer"]} startDelay={3500} typeSpeed={40} onComplete={(self) => self.cursor.remove()} /></h1>
-                    <div className="opening-button">
+                    <h1 className="sub-opening"><Typed strings={["Full Stack Web Developer"]} startDelay={2000} typeSpeed={40} onComplete={(self) => self.cursor.remove()} /></h1>
+                    <Link to="about" smooth={true} offset={-70} duration={500}><div className="opening-button animate__animated animate__fadeIn">
                         Scroll Down To See More <span className="arrow">↑</span>
-                    </div>
+                    </div></Link>
+                    {/* <div className="opening-button">
+                        Scroll Down To See More <span className="arrow">↑</span>
+                    </div> */}
                 </div>
                 {/* <Link to="/about"><button>About Me</button></Link> */}
                 {/* <Link to="/projects"><button>Projects</button></Link> */}

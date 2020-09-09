@@ -71,7 +71,7 @@ class MyModal extends React.Component {
                 </Modal.Header>
                 <Modal.Body className="custom-modal-body">
                     <div>
-                        <h3>{this.props.project.title}</h3>
+                        <h3 style={{'font-style': 'italic'}}>{this.props.project.title}</h3>
                         {/* <h5>React | Redux | Rails | Bootstrap</h5> */}
                         <h5>{this.createSkills(this.props.project)}</h5>
                         <p className="short-desc">{this.props.project.shortDescription}</p>

@@ -68,6 +68,9 @@
   z-index: 2;
   color: white;
   text-align: center;
+  /* display: flex; */
+  /* border: 1px solid red; */
+  height: 80%;
 }
 
 @keyframes App-logo-spin {
@@ -195,7 +198,7 @@
   /* height: 100vh; */
   text-align: center;
   /* padding-top: 10rem; */
-  /* background: black; */
+  background: black;
   /* z-index: 1; */
   /* border: 1px solid blue; */
 }
@@ -250,6 +253,7 @@
   margin: auto;
   text-align: center;
   /* border: 5px solid yellow; */
+  /* pointer-events: none; */
   height: 45vh;
   /* background-image: url('./assets/SportsScraper.png'); */
   background-size: cover;
@@ -312,6 +316,7 @@
 .card-text {
   z-index:2;
   border: 1px solid red;
+  border-radius: 50px;
   position: absolute;
   /* bottom: 200000px; */
   top: 0;
@@ -332,6 +337,7 @@
   margin: 0 auto;
   position: absolute;
   color: red;
+  border-radius: 50px;
   width: 30%;
   border: 2px solid pink;
   transition: 0.3s ease-in-out
@@ -690,7 +696,9 @@
 }
 
 .opening {
-  font-size: 5rem;
+  font-family: "Raleway-semibold", sans-serif;
+  /* font-style: italic; */
+  font-size: 7rem;
   display: inline-block;
   letter-spacing: 2rem;
 }
@@ -736,22 +744,54 @@
 }
 
 .sub-opening {
-  font-size: 1rem;
+  font-size: 4rem;
+  letter-spacing: 1rem;
 }
 
 .arrow {
   display: inline-block;
-  animation-name: lookDown;
-  animation-duration: 0.5s;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
+  /* animation-name: lookDown; */
+  /* animation-duration: 0.5s; */
+  /* animation-delay: 3s; */
+  /* animation-fill-mode: forwards; */
 }
 
-@keyframes lookDown {
+/* @keyframes lookDown {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(180deg);
   }
+} */
+
+.projects-title {
+  padding-top: 4rem;
+  color: white;
 }
+
+.opening-button {
+  padding: 10px;
+  display: inline;
+  border: 1px solid red;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  animation-delay: 3.5s;
+  animation-duration: 3.3s
+}
+
+.opening-button:hover {
+  background-color: green;
+  transition: 0.5s
+}
+
+.opening-button .arrow {
+  transition: 0.5s
+}
+
+.opening-button:hover .arrow {
+  transform: rotate(180deg);
+  transition: 0.5s
+}
+

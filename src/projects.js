@@ -53,13 +53,13 @@ class Projects extends React.Component {
         return(
             <div>
             <div className="projects-container" id="projects">
-                <div>
-                    <h1 className="projects-header">PROJECTS</h1>
-                    <div className="projects-bar"></div>
+                <div className="projects-title">
+                    <h1 className="projects-header wow animate__animated animate__fadeInRight" data-wow-offset="400">PROJECTS</h1>
+                    <div className="projects-bar wow animate__animated animate__fadeInLeft" data-wow-offset="400"></div>
                 </div>
                 <div className="project-tiles">
                     <div className="cardz">
-                        <div className="cardz-ind sports wow" data-wow-offset="90">
+                        <div className="cardz-ind sports wow" data-wow-offset="400">
                         </div>
                         <div className="card-text">
                             <h4>SportsScraper ↑</h4>
@@ -67,7 +67,7 @@ class Projects extends React.Component {
                         <div className="learnButton sportsscraper" onClick={this.handleClick}>Learn More</div>
                     </div>
                     <div className="cardz">
-                        <div className="cardz-ind pokemon wow" data-wow-offset="90">
+                        <div className="cardz-ind pokemon wow" data-wow-offset="400">
                         </div>
                         <div className="card-text">
                             <h4>PokemonTCG</h4>
@@ -75,7 +75,7 @@ class Projects extends React.Component {
                         <div className="learnButton pokemonTCG" onClick={this.handleClick}>Learn More</div>
                     </div>
                     <div className="cardz">
-                        <div className="cardz-ind nightlife wow" data-wow-offset="90">
+                        <div className="cardz-ind nightlife wow" data-wow-offset="400">
                         </div>
                         <div className="card-text">
                             <h4>NightLife</h4>
@@ -83,7 +83,7 @@ class Projects extends React.Component {
                         <div className="learnButton nightlife2" onClick={this.handleClick}>Learn More</div>
                     </div>
                     <div className="cardz">
-                        <div className="cardz-ind uefa wow" data-wow-offset="90">
+                        <div className="cardz-ind uefa wow" data-wow-offset="400">
                         </div>
                         <div className="card-text">
                             <h4>UEFA CHzAMPIONS MEMORY</h4>

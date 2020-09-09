@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Scroll, scrollTo } from 'react-scroll'
+import { Link } from 'react-scroll'
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 
 class Navbarz extends React.Component {
@@ -36,7 +36,7 @@ class Navbarz extends React.Component {
       </NavDropdown> */}
     </Nav>
     {/* <Form inline> */}
-      <Button variant="outline-success" onClick={this.handleClick}>Résumé</Button>
+      <Button className="btn btn-primary" onClick={this.handleClick}>Résumé</Button>
     {/* </Form> */}
   </Navbar.Collapse>
 </Navbar>
