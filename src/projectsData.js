@@ -59,13 +59,13 @@ export const projectsList = {
         slides: [
             {
                 image: "./assets/screenshots/pokemon/pokemon1.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "LOGIN PAGE",
+                littleCaption: 'Users can login to access their saved profile'
             },
             {
                 image: "./assets/screenshots/pokemon/pokemon2.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "CREATE DECK",
+                littleCaption: 'Users create decks for themselves by selecting two types of pokemon and naming the deck. Decks persist in a users profile after logging out'
             },
             {
                 image: "./assets/screenshots/pokemon/pokemon3.png",
@@ -95,7 +95,10 @@ export const projectsList = {
             link: 'https://www.youtube.com/watch?v=oUA-xZwkMVM'},
             {name: 'GitHub',
             image: './assets/logos/github.svg',
-            link: 'https://github.com/kh45/PokeMonTCG-frontend'
+            link: 'https://github.com/kh45/PokeMonTCG-frontend'},
+            {name: 'Website',
+            image: './assets/logos/internet.svg',
+            link: 'https://nboober.github.io/PokeMonTCG-frontend/'
         }]
     },
     nightlife2: {
