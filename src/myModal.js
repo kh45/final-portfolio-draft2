@@ -29,8 +29,8 @@ class MyModal extends React.Component {
         return project.slides.map(slide => <Carousel.Item>
             <img className="d-block w-100" src={require(`${slide.image}`)} alt="First slide"/>
         <Carousel.Caption>
-        <h3>{slide.bigCaption}</h3>
-        <p>{slide.littleCaption}</p>
+        <h3 className="caro-text">{slide.bigCaption}</h3>
+        <p className="caro-text">{slide.littleCaption}</p>
         </Carousel.Caption>
         </Carousel.Item>)
     }
