@@ -19,7 +19,7 @@ class MyModal extends React.Component {
     }
 
     createButtons = (project) => {
-        return project.buttons.map(button => <div className="modal-button-div" data-link={button.link}>
+        return project.buttons.map(button => <div className={`modal-button-div ${button.fixer}`} data-link={button.link}>
             <img className="modal-button modal-button-link" src={require(`${button.image}`)} onClick={this.handleLinkClick} />
             <p className="modal-button-link" onClick={this.handleLinkClick}>{button.name}</p>
             </div>)

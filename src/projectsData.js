@@ -90,17 +90,18 @@ export const projectsList = {
         ],
         buttons: [
             {
-            name: 'YouTube',
+            name: 'View Demo',
             image: './assets/logos/youtube-icon.svg',
             link: 'https://www.youtube.com/watch?v=oUA-xZwkMVM'},
             {name: 'GitHub',
             image: './assets/logos/github.svg',
-            link: 'https://github.com/kh45/PokeMonTCG-frontend'},
-            {name: 'Website',
-            image: './assets/logos/internet.svg',
-            link: 'https://nboober.github.io/PokeMonTCG-frontend/'
-        }]
-    },
+            link: 'https://github.com/kh45/PokeMonTCG-frontend'}
+        ,
+        {name: 'Website',
+        image: './assets/logos/internet.svg',
+        link: 'https://nboober.github.io/PokeMonTCG-frontend/',
+        fixer: "fixer"},
+    ]},
     nightlife2: {
         title: "Nightlife",
         description: "This is my sports project",

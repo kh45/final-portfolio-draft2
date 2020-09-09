@@ -584,7 +584,7 @@
 .modal-foot-buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 1rem;
+  column-gap: 0.5rem;
   /* border: 1px solid red; */
 }
 
@@ -678,4 +678,8 @@
 .active:hover {
   color: tomato;
   transition: 1.2s;
+}
+
+.fixer {
+  padding-right: 2rem;
 }
