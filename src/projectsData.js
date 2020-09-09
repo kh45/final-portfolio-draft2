@@ -1,7 +1,9 @@
 export const projectsList = {
     sportsscraper: {
         title: "SportsScraper",
-        description: "This is my sports project",
+        skills: ["React", "Redux", "Rails", "Bootstrap", "PostgreSQL"],
+        shortDescription: "A sports aggregator app that centralizes news & statistics about different sports, leagues, & players, customized to the user's favorites",
+        technicalDescription: "Frontend constructed using React and custom CSS with minimal Bootstrap components. Integrated Redux for better state management. Fetched daily sports news, player/team statistics, and game schedules from various API's. Utilized automated web scraping to gather player news that was not available via API. Backend constructed using Ruby on Rails. Implemented React Router for client side routing. Users preferences persisted in PostgreSQL database.",
         slides: [{
             image: "./assets/screenshots/sportsscraper/sportsscraper1.png",
             bigCaption: "LOGIN PAGE",
@@ -55,7 +57,9 @@ export const projectsList = {
     },
     pokemonTCG: {
         title: "PokemonTCG",
-        description: "This is my sports project",
+        skills: ["JavaScript", "Rails", "SQLite"],
+        shortDescription: "A PokeMon card game where users create their own decks & battle gym leaders and try to beat them all",
+        technicalDescription: "Frontend constructed only using vanilla JavaScript and custom CSS. Fetched all PokeMon cards & info from third-party API. SQLite database to persist decks to user's account after they are created. Backend constructed using Ruby on Rails. Single Page Applcation, but utilizes DOM manipuliation to give appearance of multi page app.",
         slides: [
             {
                 image: "./assets/screenshots/pokemon/pokemon1.png",
@@ -104,27 +108,29 @@ export const projectsList = {
     ]},
     nightlife2: {
         title: "Nightlife",
-        description: "This is my sports project",
+        skills: ["React", "Redux", "Rails", "Bootstrap", "MySQL"],
+        shortDescription: "An app that allows users to search for their favorite artists and keep track of/purchase tickets to their shows",
+        technicalDescription: "Frontend constructed using React and Bootstrap for styling. Backend constructed using Ruby on Rails. Fetched all info from TicketMaster API. Users can save their favorite events and will be persisted in MySQL database after logging out.",
         slides: [
             {
                 image: "./assets/screenshots/nightlife/nightlife1.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "LOGIN PAGE",
+                littleCaption: 'Users can log in to access their profile'
             },
             {
                 image: "./assets/screenshots/nightlife/nightlife2.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "SEARCH PAGE",
+                littleCaption: 'Users can search for their favorite artists'
             },
             {
                 image: "./assets/screenshots/nightlife/nightlife3.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "ARTISTS PAGE",
+                littleCaption: "When an artist is selected, all of that artist's upcoming shows and events are displayed. All info pulled from TicketMaster API. Also has links to artist's social media and ticketmaster to purchase tickets to events."
             },
             {
                 image: "./assets/screenshots/nightlife/nightlife4.png",
-                bigCaption: "First Slide Label",
-                littleCaption: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+                bigCaption: "USERS PROFILE",
+                littleCaption: 'Users can like an event from an artists page and save it to their profile for easy access'
             }],
         buttons: [
             {
@@ -138,7 +144,9 @@ export const projectsList = {
     },
     uefaGame: {
         title: "UEFA CHAMPIONS MEMORY",
-        description: "This is my sports project",
+        skills: ["JavaScript", 'CSS'],
+        shortDescription: "A fun matching memory game",
+        technicalDescription: "My very first project when self-teaching JavaSript & DOM manipulation. Only used Vanilla JavaScript and custom CSS. A project near and dear to my heart. Click the website icon below and play!",
         slides: [
             {
                 image: "./assets/screenshots/uefa/uefa1.png",

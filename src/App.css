@@ -683,3 +683,7 @@
 .fixer {
   padding-right: 1.7rem;
 }
+
+.short-desc {
+  font-size: 0.8em;
+}

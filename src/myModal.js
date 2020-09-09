@@ -14,6 +14,10 @@ class MyModal extends React.Component {
     //     </Carousel.Item>)
     // }
 
+    createSkills(project) {
+        return project.skills.join(" | ")
+    }
+    
     handleLinkClick = (event) => {
         window.open(event.target.parentNode.getAttribute('data-link'))
     }
@@ -68,8 +72,10 @@ class MyModal extends React.Component {
                 <Modal.Body className="custom-modal-body">
                     <div>
                         <h3>{this.props.project.title}</h3>
-                        <h5>React | Redux | Rails | Bootstrap</h5>
-                        <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+                        {/* <h5>React | Redux | Rails | Bootstrap</h5> */}
+                        <h5>{this.createSkills(this.props.project)}</h5>
+                        <p className="short-desc">{this.props.project.shortDescription}</p>
+                        <p>{this.props.project.technicalDescription}</p>
                     </div>
                 </Modal.Body>
                 <Modal.Footer>
