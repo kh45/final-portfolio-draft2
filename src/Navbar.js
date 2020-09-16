@@ -6,7 +6,7 @@ class Navbarz extends React.Component {
 
 
     handleClick() {
-        window.open("https://drive.google.com/file/d/1rGVrVuMQUlFjLcqpTfCzbJ5PkIH3pP4C/view")
+        window.open("https://drive.google.com/file/d/1FJTNq5nVLsDBvQFRIfZUoEhpOc9kqghV/view")
     }
 
     // makeResponsive(event) {
