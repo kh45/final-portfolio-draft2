@@ -703,6 +703,84 @@
   letter-spacing: 2rem;
 }
 
+.sub-opening {
+  font-size: 4rem;
+  letter-spacing: 1rem;
+}
+
+
+@media only screen and (max-width: 1500px) {
+  .opening {
+    font-size: 8.3vw;
+    /* color: purple; */
+    /* letter-spacing: 1rem */
+  }
+
+  .sub-opening {
+    font-size: 2.5vw;
+    /* letter-spacing: 0.5rem; */
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .opening {
+    font-size: 5.6vw;
+    /* color: yellow; */
+  }
+
+  .sub-opening {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .opening {
+    font-size: 5.6vw;
+    /* color: green; */
+  }
+
+  .sub-opening {
+    font-size: 2.5vw;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .opening {
+    font-size: 5.6vw;
+    /* color: blue; */
+    letter-spacing: 1rem
+  }
+
+  .sub-opening {
+    font-size: 2.5vw;
+    letter-spacing: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .opening {
+    font-size: 5.6vw;
+    /* color: red; */
+  }
+
+  .sub-opening {
+    font-size: 0.8rem;
+  }
+}
+
+/* @media only screen and (max-width: 300px) {
+  .opening {
+    font-size: 0.1rem;
+    letter-spacing: 0.2rem
+  }
+
+  .sub-opening {
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem
+  }
+} */
+
 .opening:nth-child(1) {
   --animate-duration: 1s;
 }
@@ -741,11 +819,6 @@
 }
 .opening:nth-child(13) {
   --animate-duration: 5.3s;
-}
-
-.sub-opening {
-  font-size: 4rem;
-  letter-spacing: 1rem;
 }
 
 .arrow {

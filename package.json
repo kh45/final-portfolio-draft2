@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://kh45.github.io/test-portfolio2/",
+  "homepage": "http://khaledhassan.me",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
